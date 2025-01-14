@@ -37,7 +37,7 @@ export default function Home() {
         console.error("Error fetching balance:", error);
       }
     } else {
-      alert("MetaMask is not installed or unavailable.");
+      alert("MetaMask is not installed or unavailable");
     }
   };
 
@@ -53,7 +53,7 @@ export default function Home() {
         console.error("User rejected connection:", error);
       }
     } else {
-      alert("MetaMask is not installed. Please install it to use this feature.");
+      alert("MetaMask is not installed");
     }
   };
 
